@@ -1,4 +1,4 @@
-README: ETL Data Loading into SQL Server
+ETL Data Loading into SQL Server
 
 Overview
 
@@ -113,4 +113,4 @@ If an error occurs, you will see:
 ```
 Error loading data: <Error details>
 ```
-You can remove this error by delete from table than again try to run the python script to load it will load to database
+You can remove this error by running the query "delete from table" in the database then again try to run the Python script to load it to the database
